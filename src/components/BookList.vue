@@ -77,7 +77,7 @@ export default {
     },
     showBtn(id) {
       this.showInfo = this.obj.find((item) => item.id == id);
-      console.log(this.showInfo);
+      // console.log(this.showInfo);
     },
     delBtn(id) {
       this.$emit('delBooks', id);
