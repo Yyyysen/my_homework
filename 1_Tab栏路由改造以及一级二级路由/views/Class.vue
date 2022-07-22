@@ -1,7 +1,7 @@
 <template>
   <div>
-    <p>这是课程页面</p>
-    <p>这是课程页面</p>
+    <p>这是分类页</p>
+    <p>这是分类页</p>
   </div>
 </template>
 
