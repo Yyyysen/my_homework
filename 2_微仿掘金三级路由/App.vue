@@ -5,7 +5,6 @@
       <router-link to="/point">沸点</router-link>
       <router-link to="/class">课程</router-link>
       <router-link to="/mall">商城</router-link>
-      <!--  -->
     </div>
     <div class="top">
       <router-view></router-view>

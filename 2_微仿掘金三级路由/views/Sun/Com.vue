@@ -1,11 +1,9 @@
 <template>
   <div>
     <div class="footer_wrap">
-      <router-link to="/indx">首页</router-link>
-      <router-link to="/point">沸点</router-link>
-      <router-link to="/class">课程</router-link>
-      <router-link to="/mall">商城</router-link>
-      <!--  -->
+      <router-link to="/indx/com/recomm">推荐</router-link>
+      <router-link to="/indx/com/new">最新</router-link>
+      <router-link to="/indx/com/hot">最热</router-link>
     </div>
     <div class="top">
       <router-view></router-view>
@@ -21,7 +19,7 @@ export default {};
 .footer_wrap {
   position: fixed;
   left: 0;
-  top: 0;
+  top: 150px;
   display: flex;
   width: 100%;
   text-align: center;
@@ -32,14 +30,15 @@ export default {};
 .footer_wrap span {
   flex: 1;
   text-decoration: none;
-  padding: 20px 0;
+  padding: 10px 0;
   line-height: 20px;
-  background-color: #333;
-  color: #ccc;
-  border: 1px solid black;
+  background-color: rgb(226, 229, 230);
+  color: brown;
+  font-weight: 800;
+  border: 1px solid rgb(0, 0, 0);
 }
 .footer_wrap a:hover {
-  background-color: #555;
+  background-color: rgb(215, 156, 230);
 }
 .top {
   padding-top: 62px;
